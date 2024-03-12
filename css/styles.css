@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #f1f3ff;
+}
+
+.scroll {
+    background-color: white;
+    box-shadow: 1px 13px 20px 0px rgba(152, 230, 124, 0.63);
+}
+
+.my-slider:hover {
+    cursor: grab;
+}
+
+.previous-button:hover {
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-nav-content {
+    text-decoration: none;
+}
+
+.footer-nav-content:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: green;
+}
+
+.footer-sosmed:hover {
+    box-shadow: 1px 13px 20px 0px rgba(152, 230, 124, 0.63);
+    border-radius: 50%;
+}
