@@ -64,9 +64,37 @@
 								aria-label="Close"
 							></button>
 						</div>
-						<div class="w-100">
+						<div class="w-100 d-none d-md-block">
 							<ul
 								class="nav nav-underline d-flex navbar-nav align-items-center justify-content-end"
+							>
+								<li class="nav-item">
+									<a
+										class="nav-link"
+										aria-current="page"
+										href="#our-services-section"
+										>Our Services</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#why-us-section">Why Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#testimonial-section">Testimonial</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#faq-section">FAQ</a>
+								</li>
+								<li class="nav-item">
+									<a class="btn-register" href="#register-redirect"
+										><button class="btn btn-success">Register</button></a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="w-100 d-md-none">
+							<ul
+								class="nav nav-underline d-flex navbar-nav align-items-start justify-content-start"
 							>
 								<li class="nav-item">
 									<a
@@ -98,9 +126,9 @@
 		</header>
 
 		<div id="hero-section" class="container-fluid py-5" style="background-color: #f1f3ff">
-			<div class="container-lg">
+			<div class="container-lg" data-aos="zoom-in-up" data-aos-duration="700">
 				<div class="row row-cols-1 row-cols-lg-2 my-5 d-flex align-items-center">
-					<div class="col px-5" data-aos="fade-right" data-aos-duration="1000">
+					<div class="col px-5">
 						<h1 class="fw-bold">Sewa & Rental Mobil Terbaik di kawasan Purwokerto</h1>
 						<p>
 							Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik
@@ -109,7 +137,7 @@
 						</p>
 						<button class="btn btn-success fw-bold">Mulai Sewa Mobil</button>
 					</div>
-					<div class="col jumbotron-fluid" data-aos="fade-left" data-aos-duration="1000">
+					<div class="col jumbotron-fluid">
 						<img
 							src="assets/img/img_car.png"
 							alt="Car"
@@ -122,12 +150,17 @@
 			</div>
 		</div>
 
-		<div id="our-services-section" class="container-lg my-5">
+		<div
+			id="our-services-section"
+			class="container-lg my-5"
+			data-aos="zoom-in-down"
+			data-aos-duration="700"
+		>
 			<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-				<div class="jumbotron-fluid text-center my-5" data-aos="fade-up" data-aos-duration="1000">
+				<div class="jumbotron-fluid text-center my-5">
 					<img src="assets/img/img_service.png" alt="Service" height="100%" width="100%" />
 				</div>
-				<div class="my-3" data-aos="fade-right" data-aos-duration="1000">
+				<div class="my-3">
 					<h2 class="fw-bold">Best Car Rental for any kind of trip in Purwokerto!</h2>
 					<p>
 						Sewa mobil di Purwokerto bersama Binar Car Rental jaminan harga lebih murah
@@ -159,19 +192,14 @@
 			</div>
 		</div>
 
-		<div id="why-us-section" class="container-lg my-5">
-			<div class="w-100" data-aos="fade-right" data-aos-duration="1000">
+		<div id="why-us-section" class="container-lg my-5" data-aos="zoom-in-down" data-aos-duration="700">
+			<div class="w-100">
 				<h2 class="fw-bold">Why Us?</h2>
 				<p>Mengapa harus pilih Binar Car Rental?</p>
 			</div>
 			<div class="w-100">
 				<div class="d-flex flex-row justify-content-center flex-wrap">
-					<div
-						class="card mx-auto my-1 bg-hover-yellow"
-						style="width: 17rem"
-						data-aos="fade-right"
-						data-aos-duration="1000"
-					>
+					<div class="card mx-auto my-1 bg-hover-yellow" style="width: 17rem">
 						<div class="card-body">
 							<img
 								src="assets/img/icon_complete.png"
@@ -189,12 +217,7 @@
 						</div>
 					</div>
 
-					<div
-						class="card mx-auto my-1 bg-hover-red"
-						style="width: 17rem"
-						data-aos="fade-right"
-						data-aos-duration="1500"
-					>
+					<div class="card mx-auto my-1 bg-hover-red" style="width: 17rem">
 						<div class="card-body">
 							<img
 								src="assets/img/icon_price.png"
@@ -213,12 +236,7 @@
 						</div>
 					</div>
 
-					<div
-						class="card mx-auto my-1 bg-hover-blue"
-						style="width: 17rem"
-						data-aos="fade-right"
-						data-aos-duration="2000"
-					>
+					<div class="card mx-auto my-1 bg-hover-blue" style="width: 17rem">
 						<div class="card-body">
 							<img
 								src="assets/img/icon_24hrs.png"
@@ -237,12 +255,7 @@
 						</div>
 					</div>
 
-					<div
-						class="card mx-auto my-1 bg-hover-green"
-						style="width: 17rem"
-						data-aos="fade-right"
-						data-aos-duration="2500"
-					>
+					<div class="card mx-auto my-1 bg-hover-green" style="width: 17rem">
 						<div class="card-body">
 							<img
 								src="assets/img/icon_professional.png"
@@ -264,17 +277,8 @@
 			</div>
 		</div>
 
-		<div
-			id="testimonial-section"
-			class="container-lg my-5"
-			data-aos="zoom-out-down"
-			data-aos-duration="500"
-		>
-			<div
-				class="d-flex justify-content-center flex-column text-center"
-				data-aos="fade-right"
-				data-aos-duration="1000"
-			>
+		<div id="testimonial-section" class="container-lg my-5" data-aos="fade-up" data-aos-duration="700">
+			<div class="d-flex justify-content-center flex-column text-center">
 				<h2 class="fw-bold">Testimonial</h2>
 				<p>Berbagai review positif dari para pelanggan kami</p>
 			</div>
@@ -427,8 +431,8 @@
 		<div
 			id="jumbotron-sewa-mobil-pwt"
 			class="container-lg my-5"
-			data-aos="zoom-out-up"
-			data-aos-duration="1000"
+			data-aos="zoom-in-up"
+			data-aos-duration="700"
 		>
 			<div
 				class="py-5 d-flex justify-content-center align-items-center flex-column rounded"
@@ -446,13 +450,13 @@
 			</div>
 		</div>
 
-		<div id="faq-section" class="container-lg my-5">
+		<div id="faq-section" class="container-lg my-5" data-aos="zoom-out-right" data-aos-duration="700">
 			<div class="row row-cols-1 row-cols-md-2 my-5">
-				<div class="col my-4" data-aos="zoom-in-right" data-aos-duration="1000">
+				<div class="col my-4">
 					<h2 class="fw-bold">Frequently Asked Question</h2>
 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
 				</div>
-				<div class="col" data-aos="zoom-in-left" data-aos-duration="1000">
+				<div class="col">
 					<div class="accordion accordion-flush my-3" id="accordionExample">
 						<div class="accordion-item border rounded-1 my-2">
 							<h3 class="accordion-header" id="headingOne">
@@ -594,7 +598,7 @@
 			</div>
 		</div>
 
-		<div class="container-lg mt-5 py-5">
+		<div class="container-lg mt-5 py-5" data-aos="zoom-out-right" data-aos-duration="700">
 			<footer class="mt-5 py-5">
 				<div
 					class="row row-cols-1 row-cols-md-4 d-flex justify-content-center flex-row flex-wrap"

@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Helvetica, sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden scroll;
 }
 
 .navbar {
@@ -16,7 +17,6 @@
 
 .bg-hover-yellow:hover {
     background-color: #f9cc00;
-    transition-delay: 3s;
 }
 
 .bg-hover-red:hover {
