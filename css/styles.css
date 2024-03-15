@@ -39,13 +39,15 @@
 }
 
 .previous-button:hover {
-    background-color: #000;
+    background-color: green;
+    color: white !important;
     border-radius: 50%;
     cursor: pointer;
+    object-fit: contain;
 }
 
 .next-button:hover {
-    background-color: #000;
+    background-color: green;
     border-radius: 50%;
     cursor: pointer;
 }

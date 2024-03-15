@@ -4,6 +4,7 @@ var slider = tns({
     items: 4,
     mouseDrag: true,
     center: true,
+    // autoWidth: true,
     fixedWidth: 720,
     gutter: 32,
     controlsPosition: "bottom",
