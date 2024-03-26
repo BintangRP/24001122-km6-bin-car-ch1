@@ -6,6 +6,10 @@
     overflow-x: hidden scroll;
 }
 
+.offcanvas {
+    width: 50% !important;
+}
+
 .navbar {
     background-color: #f1f3ff;
 }
@@ -39,15 +43,16 @@
 }
 
 .previous-button:hover {
-    background-color: green;
-    color: white !important;
-    border-radius: 50%;
+    background-color: #5CB85F;
+    fill: white !important;
+    border-radius: 20px;
     cursor: pointer;
     object-fit: contain;
 }
 
 .next-button:hover {
-    background-color: green;
+    background-color: #5CB85F;
+    fill: white !important;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -65,4 +70,43 @@
 .footer-sosmed:hover {
     box-shadow: 1px 13px 20px 0px rgba(152, 230, 124, 0.63);
     border-radius: 50%;
+}
+
+
+@media screen and (max-width: 425px) {
+    .my-slider {
+        width: 425px !important;
+
+    }
+
+    .slider-sm {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 5px !important;
+        text-align: center;
+    }
+
+    .slider-sm div {
+        padding: 0 120px;
+        background-color: #F1F3FF !important;
+    }
+
+    .slider-sm div p {
+        padding: 0 100px;
+        text-align: start;
+        font-size: 14px;
+    }
+
+    .tns-img-item img {
+        width: 100px;
+        padding: 20px 0;
+    }
+
+    .tns-stars {
+        width: 100%;
+        margin-top: 10px;
+        object-fit: contain;
+        margin-bottom: 30px !important;
+    }
 }
